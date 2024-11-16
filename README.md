@@ -32,19 +32,21 @@ El algoritmo de Huffman es un método de compresión que asigna códigos de long
 ```
 Introduce un texto: estamos bien
 Caracteres y sus códigos:
-a: 001
-b: 010
-e: 101
-i: 011
-m: 110
-n: 111
+ : 1100
+a: 1101
+b: 1110
 s: 100
-t: 000
-Texto codificado: 101100000001110101100010011101111
+t: 1111
+e: 101
+i: 000
+m: 001
+n: 010
+o: 011
+Texto codificado: 1011001111110100101110011001110000101010
 Texto decodificado: estamos bien
-Cantidad de bits del texto original: 88
-Cantidad de bits del mensaje codificado: 33
-El mensaje se redujo en un: 62.5%
+Cantidad de bits del texto original: 96
+Cantidad de bits del mensaje codificado: 40
+El mensaje se redujo en un: 58.333336%
 ```
 
 ## Requisitos
